@@ -48,3 +48,28 @@ or
 pipenv shell
 python server.py
 ```
+
+### Notes
+
+#### Setting Up Data
+You can create a database and generate a small amount of test data by vising the following url.
+```/api/generate_data```
+
+#### API Endpoints Available
+Get a list of all people in the database
+```/api/people```
+
+Get an individual person
+```/api/people/<id>```
+
+Get an individuals siblings
+```/api/siblings/<person_id>```
+
+Get an individuals parents
+```/api/parents/<person_id>```
+
+Get an individuals children
+```/api/children/<person_id>```
+
+Get an individuals grandparents
+```/api/grandparents/<person_id>```
